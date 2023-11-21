@@ -1,0 +1,124 @@
+h1 {
+    color: #FFFFFF ;
+    background-color: #B0877E ;
+    border: 1px solid black;
+    font-family: 'Oswald', sans-serif;
+    text-align: center
+    
+  }
+
+  html {
+    background-color: #DFD1CE  ; /* Fondo gris claro */
+    background-image: url('https://img.freepik.com/fotos-premium/textura-marmol-blanco-fondo_42682-286.jpg');
+    
+  }
+ 
+li {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+} 
+h3 {
+    font-family: 'Oswald', sans-serif;
+} 
+
+html {
+  width: 90em; /* Establece el ancho máximo de la página HTML */
+  margin: 0 auto; /* Centra la página horizontalmente en el centro de la ventana del navegador */
+}
+
+ul {
+  list-style-type: disc; /* Viñetas redondas */
+}
+
+ol {
+  list-style-type: decimal; /* Números */
+}
+
+h1 {
+  font-weight: bold; /* Texto en negrita */
+}
+
+a {
+  text-decoration: underline; /* Subrayado para enlaces */
+}
+
+a {
+  text-decoration: line-through; /* Línea a través del texto */
+}
+
+div {
+  padding: 10px; /* 10 píxeles de espacio de relleno en todos los lados */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh; /* 100% del alto de la ventana */
+  
+}
+
+
+.clase1{
+  /* Propietats de l'estil per a la classe mi-classe */
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.milista {
+  list-style-type: square; /* Puedes cambiar esto según tus preferencias */
+  color: #333; /* Color del texto de la lista */
+  font-family: Arial, sans-serif; /* Tipo de fuente */
+  /* Otros estilos que desees agregar */
+}
+
+.milista li {
+  margin-bottom: 8px; /* Espacio entre elementos de la lista */
+}
+
+.milista2{
+ 
+  color: #333; /* Color del texto de la lista */
+  font-family: Arial, sans-serif; /* Tipo de fuente */
+  /* Otros estilos que desees agregar */
+}
+.milista2 li {
+  margin-bottom: 8px; /* Espacio entre elementos de la lista */
+}
+p {
+  /* Estilos para los párrafos */
+  color: black;
+}
+
+p, li {
+  /* Estilos para los párrafos y elementos de lista */
+  font-size: 16px;
+  color: black;
+}
+
+.especial {
+  /* Estilos para los elementos con la clase especial */
+  background-color: yellow;
+  color: black;
+}
+
+li.especial {
+  /* Estilos para los elementos de lista con la clase especial */
+  font-weight: bold;
+  color: black;
+}
+
+li em {
+  /* Estilos para los elementos em dentro de elementos de lista li */
+  color: green;
+}
+
+h1 + p {
+  /* Estilos para los párrafos que siguen inmediatamente a los encabezados h1 */
+  margin-top: 20px;
+  color: black;
+}
